@@ -42,9 +42,10 @@ heroSection = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(function(entries){
   const ent = entries[0];
   if (ent.isIntersecting === false) {
-    document.querySelector("body").classList.add("sticky");
-  } else {
-    document.querySelector("body").classList.remove("sticky");
+    document.body.classList.add("sticky");
+  } 
+  if (ent.isIntersecting === true) {
+    document.body.classList.remove("sticky");
   }
 },
  {
@@ -52,6 +53,7 @@ const obs = new IntersectionObserver(function(entries){
   root: null, 
   threshold: 0,
   rootMargin: "-80px"
-});
+  }
+);
 obs.observe(heroSection);
 
