@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripton"
+        content="Omnifood is an AI-powered food subscriptioin that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutriotional needs.">
+
+    <link rel="icon" href="Images/favicon-512.png">
 
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/general.css">
     <link rel="stylesheet" href="CSS/queries.css">
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again</title>
 </head>
 
 <body>
@@ -17,15 +21,21 @@
         <a href="#">
             <img class="logo" alt="Omnifood-logo" src="Images/omnifood-logo.png">
         </a>
+
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">How it works</a></li>
-                <li><a class="main-nav-link" href="#">Meals</a></li>
-                <li><a class="main-nav-link" href="#">Testimonials</a></li>
-                <li><a class="main-nav-link" href="#">Pricing</a></li>
-                <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+                <li><a class="main-nav-link" href="#how">How it works</a></li>
+                <li><a class="main-nav-link" href="#meals">Meals</a></li>
+                <li><a class="main-nav-link" href="#testimonials">Testimonials</a></li>
+                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+                <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
             </ul>
         </nav>
+
+        <button class="btn--mobile-nav">
+            <ion-icon class="icon-mobile-navigation" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-navigation" name="close-outline"></ion-icon>
+        </button>
     </header>
 
     <main>
@@ -38,8 +48,8 @@
                         your
                         personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
                     </p>
-                    <a href="#" class="btn btn--full margin-right-sm">Start eating well</a>
-                    <a href="#" class="btn btn--outline">Learn more &darr;</a>
+                    <a href="#cta" class="btn btn--full margin-right-sm">Start eating well</a>
+                    <a href="#how" class="btn btn--outline">Learn more &darr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-images">
                             <img src="Images/customers/customer-1.jpg" alt="Customer photo">
@@ -73,7 +83,7 @@
             </div>
         </section>
 
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class="container">
                 <span class="subheading">How it Works</span>
                 <h2 class="heading-secondary">
@@ -124,7 +134,7 @@
             </div>
         </section>
 
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class="container center-text">
                 <span class="subheading">Meals</span>
                 <h2 class="heading-secondary">
@@ -229,7 +239,7 @@
             </div>
         </section>
 
-        <section class="section-testimonials">
+        <section class="section-testimonials" id="testimonials">
             <div class="testimonials-container">
                 <span class="subheading">Testimonials</span>
                 <h2 class="heading-secondary">
@@ -314,7 +324,7 @@
             </div>
         </section>
 
-        <section class="section-pricing">
+        <section class="section-pricing" id="pricing">
             <div class="container">
                 <span class="subheading">Pricing</span>
                 <h2 class="heading-secondary">
@@ -423,7 +433,7 @@
             </div>
         </section>
 
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">
@@ -475,22 +485,33 @@
 
                 <ul class="social-links">
                     <li>
-                        <a class="footer-link" href="#"><ion-icon class="social-logos" name="logo-instagram"></ion-icon></a>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-logos" name="logo-instagram"></ion-icon>
+                        </a>
                     </li>
                     <li>
-                        <a class="footer-link" href="#"><ion-icon class="social-logos" class="social-logos" name="logo-youtube"></ion-icon></a>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-logos" class="social-logos" name="logo-youtube"></ion-icon>
+                        </a>
                     </li>
                     <li>
-                        <a class="footer-link" href="#"><ion-icon class="social-logos" name="logo-facebook"></ion-icon></a>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-logos" name="logo-facebook"></ion-icon>
+                        </a>
                     </li>
                     <li>
-                        <a class="footer-link" href="#"><ion-icon class="social-logos" name="logo-twitter"></ion-icon></a>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-logos" name="logo-twitter"></ion-icon>
+                        </a>
                     </li>
                     <li>
-                        <a class="footer-link" href="#"><ion-icon class="social-logos" name="logo-snapchat"></ion-icon></a>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-logos" name="logo-snapchat"></ion-icon>
+                        </a>
                     </li>
                 </ul>
-                <p class="copyright">Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.</p>
+                <p class="copyright">Copyright &copy; <span class="year">2027</span> by Omnifood, Inc. All rights
+                    reserved.</p>
             </div>
             <div class="address-col">
                 <p class="footer-heading">Contact us</p>
@@ -534,6 +555,7 @@
         </div>
     </footer>
 
-
+    <script src="Javascript/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defersrc="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
