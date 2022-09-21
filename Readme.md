@@ -10,7 +10,7 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 ### Links
 
-- Live Site URL: [https://easy-bank-landing-page-10.netlify.app/]
+- Live Site URL: [https://omnifood-project-10.vercel.app/]
 
 ### Built with
 
