@@ -42,7 +42,6 @@ html {
 }
 
 body {
-    font-family: sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -549,7 +548,6 @@ header.header {
 .plan-details {
     text-align: center;
     font-size: 1.6rem;
-    line-height: center;
 }
 
 .feature-icon {
@@ -608,7 +606,7 @@ header.header {
 }
 
 .cta-img-box {
-    background-image: linear-gradient(to right bottom, #eb948e4b, #e2822f51), url("../Images/eating.jpg");
+    background-image: linear-gradient(to right bottom, #eb948e4b, #e2822f51), url("../images/eating.jpg");
     background-position: center;
     background-size: cover;
 }

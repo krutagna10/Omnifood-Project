@@ -6,7 +6,7 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 ### Screenshot
 
-![](Screenshot/Screenshot.png)
+![](screenshot/Screenshot.png)
 
 ### Links
 
@@ -14,7 +14,7 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox
-- CSS Grid
+- HTML
+- CSS 
+- Vanilla Javascript
 
